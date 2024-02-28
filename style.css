@@ -25,7 +25,7 @@ body {
 
 @media (max-width: 768px) {
     .hero {
-        height: 450px;
+        height: 600px;
     }
 
     .hero-text {
