@@ -18,19 +18,23 @@ body {
     background: url(./icons/white.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+
     background-position: center;
 }
 
 
 @media (max-width: 768px) {
     .hero {
-        height: 600px;
+        height: 450px;
     }
 
     .hero-text {
         text-align: center;
     }
+
+        .hero-container {
+            margin-top: 1rem !important;
+        }
 }
 
 .front-image {
@@ -42,8 +46,9 @@ body {
 .hero-box {
     width: 100px;
     height: 100px;
-    background: white;
+    background: #9d1938;
     overflow: hidden;
+    border-radius: 100%;
 }
 
 .hero-box img {
